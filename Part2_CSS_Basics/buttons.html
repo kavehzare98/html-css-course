@@ -1,0 +1,71 @@
+<!-- CS Code for button color -->
+
+<!-- In order to target all buttons in CSS: 
+    <style> 
+      button {
+        ...
+      }
+    </style>
+
+    But... in order to target a specific button, pass in another attribute to your button:
+    <button class="subscribe-button">
+      SUBSCRIBE
+    </button>
+    
+    And then in your CSS:
+
+    <style>
+      .subscribe-button {
+        ...
+      }
+    </style>
+-->
+
+<style>
+  .sub-btn {
+    background-color: rgb(167, 5, 5); 
+    color: white;       /* change text color, you can clock on color box to pick exact color */
+    border: none;         /* get rid of button border */
+    height: 36px;         /* adjust height of button */
+    width: 105px;         /* adjust width of button */
+    border-radius: 2px;   /* rounds out the edges */
+    cursor: pointer;      /* this changes mouse to pointer when hovering over button */
+  }
+
+  .join-btn {
+    background-color: white;
+    color: rgb(82, 82, 255);
+    border-color: rgb(82, 82, 255);
+    height: 36px;
+    width: 65px;
+    border-radius: 1px;
+    border-style: solid;
+    border-width: 1px;
+  }
+
+  .tweet-btn {
+    background-color: rgb(33, 159, 255);
+    border: none;
+    color: white;
+    height: 36px;
+    width: 85px;
+    border-radius: 25px;
+  }
+
+  button {
+    cursor: pointer;
+    margin-left: 8px;     /* adds padding to the left of the button */
+  }
+</style>
+
+<button class="sub-btn">
+  SUBSCRIBE
+</button>
+
+<button class="join-btn">
+  JOIN
+</button>
+
+<button class="tweet-btn">
+  Tweet
+</button>
