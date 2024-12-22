@@ -1,0 +1,79 @@
+<style>
+  .subscribe-button {
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(181, 7, 7);
+    color: white;
+    width: 105px;
+    transition: opacity 0.15s; /* Allows us to fade slowly on hover */
+  }
+
+  /* Hover style starts here: */
+  .subscribe-button:hover {
+    opacity: 0.6;
+  }
+
+  /* When clicked */
+  .subscribe-button:active {
+    opacity: 0.3;
+  }
+
+  .join-button {
+    border-width: 1px;
+    border-color: rgba(0, 0, 255, 0.747);
+    border-style: solid;
+    color: rgba(0, 0, 255, 0.747);
+    background-color: white;
+    border-radius: 1px;
+    width: 60px;
+    /* Always put transition in base class */
+    transition: background-color 0.15s, color 0.15s;
+  }
+
+  .join-button:hover {
+    background-color: rgba(0, 0, 255, 0.747);
+    color: white;
+  }
+
+  .join-button:active {
+    opacity: 0.7;
+  }
+
+  .tweet-button {
+    border: none;
+    border-radius: 18px;
+    color: white;
+    background-color: rgb(5, 125, 218);
+    width: 75px;
+    font-weight: bold;
+    /* shadow: horizontal, vertical, blur, color */
+    /* rgba: includes opacity */
+    transition: box-shadow 0.15s;
+  }
+
+  .tweet-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  button {
+    height: 36px;
+    cursor: pointer;
+    margin-left: 8px;
+  }
+</style>
+
+<button class="subscribe-button">SUBSCRIBE</button>
+
+<button class="join-button">JOIN</button>
+
+<button class="tweet-button">Tweet</button>
+
+<p>
+    Exercises:<br>
+    3a. Uber - Request Now <br>
+    3b. Amazon - Add to Cart <br>
+    3c. Github - Sign Up <br>
+    3d. Linkedin - Apply on company website && Save <br>
+</p>
+
+
